@@ -26,9 +26,15 @@
     width: 100%;
     color: white;
     padding: 30px;
+}
+
+.bg {
     background-color: transparent !important;
     transition: background-color 0.3s ease-in-out;
+}
 
+.bgColor{
+    background-color: var(--secondary) !important;
 }
 
 

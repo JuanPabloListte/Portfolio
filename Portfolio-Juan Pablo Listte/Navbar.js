@@ -4,9 +4,9 @@ var shouldExecuteScrollFunction = true;
 
 function toggleNavbarBackground() {
   if (window.innerWidth <= 768) {
-    navbar.classList.add('bg-dark');
+    navbar.classList.add('bgColor');
   } else {
-    navbar.classList.remove('bg-dark');
+    navbar.classList.remove('bgColor');
   }
 }
 
@@ -17,9 +17,9 @@ window.addEventListener('scroll', function() {
   if (shouldExecuteScrollFunction) {
     if (window.innerWidth > 768) {
       if (this.window.scrollY > 550) {
-        nav.classList.add('bg-dark', 'shadow');
+        nav.classList.add('bgColor');
       } else {
-        nav.classList.remove('bg-dark', 'shadow');
+        nav.classList.remove('bgColor');
       }
     }
   }
